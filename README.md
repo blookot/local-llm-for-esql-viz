@@ -160,6 +160,7 @@ Here is a list of questions (in French to test multi-lingual support as well!) y
 A quick recap first. Details are hereunder.
 
 | Model | Nb params | Index list | Doc count | ES\|QL gen | Viz gen | Dashboard gen |
+| --- | --- | --- | --- | --- | --- | --- |
 | Deepseek r1 | 14B | - | - |  |  |  |
 | Qwen 3 | 8B | - | - | - |  |  |
 | Gemma 4 | 4B | - | - | - |  |  |
