@@ -1,6 +1,6 @@
-# Local LLM for ESQL viz
+# Local LLM for ES|QL viz
 
-We will bench local, private and free LLMs (deepseek, gemma4, gpt-4o, qwen...) to build ES|QL requests, visualisations & dashboarding.
+Let's bench local, private and free LLMs (deepseek, gemma4, gpt-4o, qwen...) to build ES|QL requests, visualisations & dashboarding.
 
 
 ## Table of contents
@@ -156,6 +156,18 @@ Here is a list of questions (in French to test multi-lingual support as well!) y
 
 
 ## Results
+
+A quick recap first. Details are hereunder.
+
+| Model | Nb params | Index list | Doc count | ES\|QL gen | Viz gen | Dashboard gen |
+| Deepseek r1 | 14B | - | - |  |  |  |
+| Qwen 3 | 8B | - | - | - |  |  |
+| Gemma 4 | 4B | - | - | - |  |  |
+| GPT-OSS | 20B | - | - | - |  |  |
+| Qwen 3.5 | 9B | ++ | ++ | ++ | ++ | - |
+| Qwen 3.8 | 25B | ++ | ++ | ++ | + | - |
+| Ornith 1.5 | 35B | ++ | ++ | ++ | ++ | - |
+
 
 I'll start by the models that didn't quite work.
 
